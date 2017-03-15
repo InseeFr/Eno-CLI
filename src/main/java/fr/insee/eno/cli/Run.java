@@ -14,6 +14,7 @@ import org.apache.commons.cli.ParseException;
 public class Run {
 
 	public static void main(String[] args) {
+		System.out.println("> Starting <");
 		Options options = defineOptions();
 		
 		HelpFormatter formatter = new HelpFormatter();		
